@@ -112,10 +112,6 @@ h2,h3,h4,{
   color: black;
 }
 
-@media (max-width: 641px) {
-    #my-menu span {visibility: hidden;}
-    #my-menu  {padding-left: 10%;}
-}
 
 .dots{
   visibility: hidden;
@@ -124,6 +120,14 @@ h2,h3,h4,{
   .dots{
     visibility: visible;
   }
+}
+@media (max-width: 711px) {
+    #my-menu span {visibility: hidden;}
+    #my-menu a:hover{
+      .dots{
+        visibility: hidden;
+      }
+    }
 }
 
 .about-me p{
