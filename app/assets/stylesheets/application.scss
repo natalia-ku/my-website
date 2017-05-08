@@ -18,6 +18,12 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+html{
+  font-family: 'Fauna One', serif;
+}
+h2,h3,h4,{
+  font-family: 'Playfair Display', serif;
+}
 #my-menu{
   position: fixed;
   width: 100%;
@@ -31,11 +37,7 @@
 #my-menu a{
   color: white;
 }
-.menu-items li:hover{
-  text-decoration: underline;
-  text-decoration-style: dotted;
 
-}
 #home, #contact{
   min-height: 600px;
   width: 100%;
@@ -55,13 +57,11 @@
 }
 #contact{
   position: relative;
-    padding-top: 71%;
 }
 #hobby{
   margin-bottom: 2%;
 }
 #my-contacts{
-
   position: absolute;
   bottom: 40%;
   color: white;
@@ -90,9 +90,6 @@
   border-style: solid;
 }
 
-.my-projects-container{
-
-}
 .orbit img{
   width:32.5%;
 }
@@ -109,4 +106,17 @@
 @media (max-width: 641px) {
     #my-menu span {visibility: hidden;}
     #my-menu  {padding-left: 10%;}
+}
+
+.dots{
+  visibility: hidden;
+}
+#my-menu a:hover{
+  .dots{
+    visibility: visible;
+  }
+}
+
+.my-projects-container{
+
 }
