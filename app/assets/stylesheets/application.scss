@@ -129,11 +129,12 @@ h2,h3,h4,{
 .about-me p{
   font-size: 120%;
   line-height: 2.2;
-
 }
-.my-projects-container{
 
-}
 .my-projects{
   min-height: 350px;
+}
+.my-projects:hover{
+  background-color: #F0EFF4;
+  opacity: 0.7;
 }
