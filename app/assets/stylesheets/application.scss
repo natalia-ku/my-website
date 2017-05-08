@@ -88,8 +88,17 @@ h2,h3,h4,{
   background-color: #14213D;
   border-color: white;
   border-style: solid;
+  color: white;
+  min-height: 320px;
 }
+.my-skills:hover{
+  opacity: 0.8;
+}
+.my-skills-container h4{
+  text-decoration:underline;
+  text-decoration-style: dotted;
 
+}
 .orbit img{
   width:32.5%;
 }
@@ -117,6 +126,14 @@ h2,h3,h4,{
   }
 }
 
+.about-me p{
+  font-size: 120%;
+  line-height: 2.2;
+
+}
 .my-projects-container{
 
+}
+.my-projects{
+  min-height: 350px;
 }
